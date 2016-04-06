@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+{{License}}
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Ark_Infusion::news" title="News" module="Ark_Infusion" sortOrder="65" resource="Ark_Infusion::news"/>
+        <add id="Ark_Infusion::author" title="Authors" module="Ark_Infusion" sortOrder="10" action="ark_infusion/author" resource="Ark_Infusion::author" parent="Ark_Infusion::news" />
+    </menu>
+</config>
